@@ -1,0 +1,110 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+    "settings": {
+        "color": {
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg,#f6f2e9 5%,transparent)",
+					"name": "Linear base to transparent",
+					"slug": "linear-b-to-tr-line"
+				},
+				{
+					"gradient": "linear-gradient(180deg,#332815 80%,transparent 80%)",
+					"name": "Linear contrast to base line",
+					"slug": "linear-fg-to-bg-line"
+				},
+				{
+					"gradient": "linear-gradient(180deg,#ece2d0 80%,transparent 80%)",
+					"name": "Linear primary to base line",
+					"slug": "linear-p-to-b-line"
+				},
+				{
+					"gradient": "linear-gradient(180deg,#ece2d0,#332815)",
+					"name": "Linear Offset to Contrast",
+					"slug": "linear-po-to-p-line"
+				},
+				{
+					"gradient": "linear-gradient(180deg,#332815,#3e3119, #332815)",
+					"name": "Linear Contrast to Offset to Contrast",
+					"slug": "linear-c-to-offset-to-c"
+				},
+				{
+					"gradient": "radial-gradient(at left,#332815,#3e3119,#332815)",
+					"name": "Linear Contrast to Offset to Contrast",
+					"slug": "radial-c-to-offset-to-c"
+				},
+				{
+					"gradient": "radial-gradient(circle closest-corner at 22%,#ece2d0 99.5%,transparent)",
+					"name":  "Radial Primary to Transparent",
+					"slug": "radial-p-to-tr"
+				},
+				{
+					"gradient": "radial-gradient(circle closest-corner at 22%,#332815 99.5%,transparent)",
+					"name":  "Radial Contrast to Transparent",
+					"slug": "radial-c-to-tr"
+				},
+				{
+					"gradient": "linear-gradient(#332815,#3e3119 50%,#332815 50%,#3e3119)",
+					"name":  "Contrast offset split",
+					"slug": "linear-contrast-splt"
+				}
+				
+
+				
+			],
+			"palette": [
+				{
+					"color": "hsl(39, 42%, 94%)",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "hsl(39, 42%, 14%)",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "hsl(39, 42%, 87%)",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "hsl(39, 42%, 84%)",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "hsl(39, 42%, 17%)",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "hsl(39, 42%, 11%)",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+                {
+                    "color": "hsl(305, 29%, 34%)",
+                    "name": "Quinary",
+                    "slug": "qui"
+                },
+                {
+                    "color": "hsl(287,40%,65%)",
+                    "name": "Senary",
+                    "slug": "sen"
+                },
+				{
+					"color": "hsl(39, 42%, 10%)",
+					"name": "Header/Footer Base",
+					"slug": "hf-base"
+				},
+				{
+					"color": "hsl(0,0%,100%)",
+					"name": "Header/Footer Contrast",
+					"slug": "hf-contrast"
+				}
+			]
+		}
+    }
+}
